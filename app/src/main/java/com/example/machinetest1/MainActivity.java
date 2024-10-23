@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         RadioButton radioUsa = dialog.findViewById(R.id.radioUsa);
         RadioButton radioUk = dialog.findViewById(R.id.radioUk);
         RadioButton radioChi = dialog.findViewById(R.id.radioChi);
-        Button closeDialogBtn = dialog.findViewById(R.id.closeDialogBtn); // Add a close button in your dialog layout
+        Button closeDialogBtn = dialog.findViewById(R.id.closeDialogBtn);
 
         View.OnClickListener updateCurrency = new View.OnClickListener() {
             @Override
